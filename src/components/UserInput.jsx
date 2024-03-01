@@ -4,7 +4,7 @@ export default function UserInput({userInput,setUserInput}){
             prevInput=>{
                 return {
                     ...prevInput,
-                    [inputIdentifier]:newValue
+                    [inputIdentifier]:+newValue
                 }
             }
         )
